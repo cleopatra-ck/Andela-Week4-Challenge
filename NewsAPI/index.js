@@ -7,18 +7,13 @@ console.log("Please select a news-source number from the list below; \n 1. bbc-n
 
 const news_sources = { 1: "bbc-news", 2: "bbc-sport",  3: "business-insider-uk",   4: "buzzfeed" };
 
-
   
   const standard_input = process.stdin;
 
    standard_input.on("data", data => {
+         
     
-    const source = Number(data);
-
-    const source_num = [1, 2, 3, 4];
-    
-    
-   if (source_num.includes(source)) {
+   if (input= Number(data)) {
       
       console.log("Loading.....")
     }
@@ -30,7 +25,7 @@ const news_sources = { 1: "bbc-news", 2: "bbc-sport",  3: "business-insider-uk",
 
 newsapi.v2.topHeadlines({
 
-  sources:news_sources[source],
+  sources:news_sources[input],
   pageSize: 10
 
   })
@@ -49,6 +44,4 @@ newsapi.v2.topHeadlines({
 
 });
 
-
-
-
+module.exports = NewsAPI;

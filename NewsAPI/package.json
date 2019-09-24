@@ -1,0 +1,18 @@
+{
+  "name": "newsapi",
+  "version": "1.0.0",
+  "description": "A command line application that consumes an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Andela-Week4-Challenge"
+  },
+  "author": "Cleopatra",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
