@@ -44,4 +44,10 @@ newsapi.v2.topHeadlines({
 
 });
 
+<<<<<<< HEAD
 module.exports = NewsAPI;
+=======
+module.exports = newsapi;
+
+
+>>>>>>> 4878de583d187e85eaffe2dcdd3ea68cc014f57d
